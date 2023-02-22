@@ -318,6 +318,14 @@ button:focus {
   }
 }
 
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
@@ -329,6 +337,10 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+}
+.headding-cards {
+  font-size: 1.2em !important;
+  color: white; 
 }
 
 .home-about-body {
@@ -537,6 +549,15 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+
+.btn-card {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.bg-inherit {
+  background-color: inherit !important;
 }
 
 /* --------- */
